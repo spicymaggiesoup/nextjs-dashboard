@@ -17,6 +17,7 @@ export default function Page() {
           <div className={styles.shape}></div>
           <p className={`${lusitana.className} text-xl text-gray-800 md:text-3xl md:leading-normal`}>
             <strong>nUBoard 매뉴얼</strong> 을 다운로드 받아보세요.{' '}
+            <br></br>
             <a href="https://github.com/spicymaggiesoup/board/blob/main/nUBoard-Guide-Admin_20230926v.pdf?raw=true" className="text-blue-500">
               관리자페이지 매뉴얼 다운받기
             </a>
