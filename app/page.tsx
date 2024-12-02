@@ -15,13 +15,14 @@ export default function Page() {
         <div className="flex flex-col justify-center gap-6 rounded-lg bg-gray-50 px-6 py-10 md:w-2/5 md:px-20">
           {/* 챕터-2 css @/app/ui/home.module.css 의 클래스로 즉각적용 */}
           <div className={styles.shape}></div>
-          <p className={`${lusitana.className} text-xl text-gray-800 md:text-3xl md:leading-normal`}>
-            <strong>nUBoard 매뉴얼</strong> 을 다운로드 받아보세요.{' '}
-            <br></br>
-            <a href="https://github.com/spicymaggiesoup/board/blob/main/nUBoard-Guide-Admin_20230926v.pdf?raw=true" className="text-blue-500">
-              관리자페이지 매뉴얼 다운받기
-            </a>
-          </p>
+          <p className={`${lusitana.className} text-xl text-gray-800 md:text-3xl md:leading-normal`}></p>
+          <a href="https://openai-board-assistant.vercel.app/" className="text-blue-500">
+            보드봇에게 물어보기
+          </a>
+          <br></br>
+          <a href="https://github.com/spicymaggiesoup/board/blob/main/nUBoard-Guide-Admin_20230926v.pdf?raw=true" className="text-blue-500">
+            관리자페이지 매뉴얼 다운받기
+          </a>
         </div>
       </div>
     </main>
