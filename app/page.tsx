@@ -16,7 +16,7 @@ export default function Page() {
           {/* 챕터-2 css @/app/ui/home.module.css 의 클래스로 즉각적용 */}
           <div className={styles.shape}></div>
           <p className={`${lusitana.className} text-xl text-gray-800 md:text-3xl md:leading-normal`}></p>
-          <a href="https://openai-board-assistant.vercel.app/" className="text-blue-500">
+          <a href="https://openai-board-assistant.vercel.app/" className="text-blue-500" target="_blank">
             보드봇에게 물어보기
           </a>
           <br></br>
